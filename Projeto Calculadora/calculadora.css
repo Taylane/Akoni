@@ -1,0 +1,31 @@
+.calculadora {
+  background-color: lightgray;
+  display: inline-block;
+
+  border-radius: 2px; /*Firula */
+  box-shadow: 0 1px 3px #888888; /*Firula */
+}
+
+.display {
+  font-size: 2rem;
+  margin: 20px 20px;
+  background-color: whitesmoke;
+  text-align: right;
+
+  padding-right: 5px;
+  border-radius: 2px; /*Firula */
+
+  height: 40px;
+}
+
+.linha {
+  display: block;
+  margin: 5px;
+}
+
+.linha button {
+  font-size: 1.25rem;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
